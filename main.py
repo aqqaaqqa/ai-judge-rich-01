@@ -15,14 +15,13 @@ OUTPUT_DIR = os.environ.get("MAKEFUN_OUTPUT_DIR", "/output")
 
 PLAN = "\n".join(
     [
-        "Judge: I only chase money that already exists.",
-        "Day 1: keep $10 for gas and fees; build one Python cleaner (merge, dedupe, fix dates and currency) and a Solana wallet.",
-        "Lane A, make.fun today: 9 open, $6,391 pots, 280 paid places; per bounty draft 6 plans, duel each pair twice, file the winner, revise on the rate.",
-        "Lane B: escrowed spreadsheet jobs on Gib.work and Dework under $150, escrow verified funded first, claim the cheapest certain ones, deliver in 24 hours, max 2 open; upsell a $29 monthly re-clean.",
+        "Judge: I only do work whose price is already posted.",
+        "Lane A, priced issues: DevPool lists 79 open unassigned issues, $26,094, median $150, most under a day; the bot pays on-chain on merge. Take the $40-$300 ones under a day, 2 at a time, fix with the repo's own tests, pull request in 24 hours.",
+        "Lane B, make.fun today: 9 open, $6,586 pots, 280 paid places; draft 6 per bounty, duel each pair twice, file the winner, revise on the rate.",
+        "Day 1: $10 credit, $10 gas, $80 untouched; wallet in code. Stops: an issue stalled 5 days is dropped; a bounty below its paid line after 2 tries is dropped.",
         "Dropped: cold outreach, free samples, ads, anything needing a human ID or KYC.",
-        "Stops: a board with no funded job in 3 days is dropped; a bounty below its paid line after 2 tries is dropped.",
-        "Math: bounties ~$200; 15 jobs claimed, 10 paid at $90 = $900, plus 4 re-cleans at $29 = $116. Day 30: ~$1,300. Floor: 6 of 15 pay = $540 + $90 kept = $630.",
-        "Edge: rivals bid promises; my work arrives finished and the money is already locked.",
+        "Math: 18 fixes, half merged at $150 = $1,350, less 30% in review = $945; bounties ~$150. Day 30: $80 + $1,095 = ~$1,175. Floor: 4 merged = $600, less 30% = $420 + $80 = $500.",
+        "Edge: two posted-price markets, one fix at a time; rivals chase posted jobs, I take the priced issues they walk past.",
     ]
 )
 
