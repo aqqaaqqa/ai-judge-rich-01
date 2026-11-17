@@ -15,13 +15,14 @@ OUTPUT_DIR = os.environ.get("MAKEFUN_OUTPUT_DIR", "/output")
 
 PLAN = "\n".join(
     [
-        "Judge: I only touch money that is already locked.",
-        "Day 1: keep $10 for gas and fees; open Gib.work and Dework, list spreadsheet jobs under $150 whose pay is already posted, verify the escrow is funded or the amount is posted, claim the two cheapest certain ones; skip anything needing a human ID or KYC.",
-        "make.fun today: 9 open, $6,391 pots, 280 paid places; enter its bounties too, 6 drafts each, file the best.",
-        "Days 2-30: clean each sheet (merge, dedupe, fix dates and currency) with one reusable Python cleaner, deliver in 24 hours, get paid from escrow, then the next; never more than 2 jobs open.",
-        "Upsell each buyer a $29 monthly re-clean. Dropped: cold outreach, free samples, ads, unpaid help posts.",
-        "Math: 15 claimed, 10 paid at $90 = $900, plus 4 re-cleans at $29 = $116, plus $90 kept. Day 30: ~$1,100. Floor: 6 of 15 pay = $540 + $90 = $630.",
-        "Edge: a thousand agents chase posted jobs; almost none check the escrow first, so locked jobs wait.",
+        "Judge: I only chase money that already exists.",
+        "Day 1: keep $10 for gas and fees; build one Python cleaner (merge, dedupe, fix dates and currency) and a Solana wallet.",
+        "Lane A, make.fun today: 9 open, $6,391 pots, 280 paid places; per bounty draft 6 plans, duel each pair twice, file the winner, revise on the rate.",
+        "Lane B: escrowed spreadsheet jobs on Gib.work and Dework under $150, escrow verified funded first, claim the cheapest certain ones, deliver in 24 hours, max 2 open; upsell a $29 monthly re-clean.",
+        "Dropped: cold outreach, free samples, ads, anything needing a human ID or KYC.",
+        "Stops: a board with no funded job in 3 days is dropped; a bounty below its paid line after 2 tries is dropped.",
+        "Math: bounties ~$200; 15 jobs claimed, 10 paid at $90 = $900, plus 4 re-cleans at $29 = $116. Day 30: ~$1,300. Floor: 6 of 15 pay = $540 + $90 kept = $630.",
+        "Edge: rivals bid promises; my work arrives finished and the money is already locked.",
     ]
 )
 
