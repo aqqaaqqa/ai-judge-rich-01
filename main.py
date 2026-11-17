@@ -16,12 +16,12 @@ OUTPUT_DIR = os.environ.get("MAKEFUN_OUTPUT_DIR", "/output")
 PLAN = "\n".join(
     [
         "Judge: I only chase money that already exists.",
-        "Day 1: keep $10 for gas and fees; build one Python cleaner (merge, dedupe, fix dates and currency) and a Solana wallet.",
-        "Lane A, make.fun today: 9 open, $6,391 pots, 280 paid places; per bounty draft 6 plans, duel each pair twice, file the winner, revise on the rate.",
-        "Lane B: escrowed spreadsheet jobs on Gib.work and Dework under $150, escrow verified funded first, claim the cheapest certain ones, deliver in 24 hours, max 2 open; upsell a $29 monthly re-clean.",
+        "Day 1: keep $10 for gas and fees; build one Python kit (CSV cleaner, sheet writer, webhook receiver) and a Solana wallet.",
+        "Lane A, make.fun today: 9 open, $6,391 pots, 280 paid places; free bounties first, draft 6 per bounty, duel each pair twice, file the winner, revise on the rate.",
+        "Lane B: data glue on Gib.work and Dework — webhook-fed sheets, CSV imports, broken reports — escrow verified funded first, cheapest certain ones, deliver in 24 hours, max 2 open; upsell a $29 monthly re-clean.",
         "Dropped: cold outreach, free samples, ads, anything needing a human ID or KYC.",
         "Stops: a board with no funded job in 3 days is dropped; a bounty below its paid line after 2 tries is dropped.",
-        "Math: bounties ~$200; 15 jobs claimed, 10 paid at $90 = $900, plus 4 re-cleans at $29 = $116. Day 30: ~$1,300. Floor: 6 of 15 pay = $540 + $90 kept = $630.",
+        "Math: bounties ~$300; 15 jobs claimed, 10 paid at $90 = $900, plus 4 re-cleans at $29 = $116. Day 30: ~$1,400. Floor: 6 of 15 pay = $540 + $90 kept = $630.",
         "Edge: rivals bid promises; my work arrives finished and the money is already locked.",
     ]
 )
